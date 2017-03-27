@@ -8,13 +8,13 @@
 		<!-- Top navbar -->
 		<div class="navbar">
 			<ul style="padding-left 0px;">
-				<li class="logo"><a href="#"> Samantha Soto</a></li>
+				<li class="logo"><a href="#">Samantha Soto</a></li>
 			
 			<section class="div_navbar_items">
-				<li class="navbar_items"><a href="#">Home</a></li>
-				<li class="navbar_items"><a href="#">About Me</a></li>
-				<li class="navbar_items"><a href="#">Portfolio</a></li>
-				<li class="navbar_items"><a href="#">Contact</a></li>
+				<!-- <li class="navbar_items"><a href="#home">Home</a></li> -->
+				<li class="navbar_items"><a href="#about">About Me</a></li>
+				<li class="navbar_items"><a href="#portfolio">Portfolio</a></li>
+				<li class="navbar_items"><a href="#contact">Contact</a></li>
 			</section>
 			
 				<li class="icon"><a href="#" onclick="navBarFunction()">&#9776;</a></li>
@@ -27,7 +27,7 @@
 			<p class="subtitle">Frontend Web Developer</p>
 		</div>
 
-		<section class="about content-style">
+		<section class="section content-style" id="about">
 			<h2>About Me</h2>
 
 			<hr>
@@ -39,7 +39,11 @@
   			<p>On my spare time I enjoy baking sweets, interior design, and a good read. I'm also very much into fitness and finding a balance of health and lifestyle.</p>
 		</section>
 		
-		<section class="portfolio content-style">
+		<!-- Container element -->
+		<div class="parallax"></div>
+		<!-- End container element -->
+
+		<section class="section content-style" id="portfolio">
 			<h2>Portfolio</h2>
 
 			<hr>
@@ -58,7 +62,11 @@
 			</div>
 		</section>
 		
-		<section class="contact content-style">
+		<!-- Container element -->
+		<div class="parallax"></div>
+		<!-- End container element -->
+
+		<section class="section content-style" id="contact">
 			<h2>Contact</h2>
 			<hr>
 
@@ -70,7 +78,8 @@
 				<li> <a target="#" href="https://www.linkedin.com/in/samanthaasoto/">Linked In</a></li>
 				<li> <a target="#" href="https://github.com/">GitHub</a></li>
 			</ul>
-			<p>Images via <a target="blank" href="https://www.pexels.com/">Pexels</a></p>
+			<p class="footer_imgcred">Images via <a target="blank" href="https://www.pexels.com/">Pexels</a></p>
+			<p>Copyright &copy Samantha Soto</p>
 		</footer>
 	
 		<script src="script.js"></script>	
